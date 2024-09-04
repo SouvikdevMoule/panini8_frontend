@@ -279,6 +279,12 @@ body {
   }
 
 }
+
+
+
+
+
+
 .button-gem{
   display: flex;
   padding-top: 20px;
@@ -9898,8 +9904,16 @@ Primary style
   display: block;
 }
 .logo a img {
+  margin-top: 10px;
+  margin-bottom: 10px;
   max-height: 50px;
   object-fit: cover;
+}
+@media (max-width: 1024px) {
+  .logo a img {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
 }
 
 .rbt-header-top {
